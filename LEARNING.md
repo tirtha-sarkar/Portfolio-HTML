@@ -29,8 +29,21 @@
 - semantic tag= header, footer, main, form, table
 - non-semantic tag = div, span
 10. Text formating tag
-11. List
-12. Link
-13. Table
-14. Form
-15. Deploy
+    -Nortmal Text <br />
+    -<strong>Nortmal Text</strong> <br />
+    -<em>italc Text</em> <br />
+    -<u>Under line</u> <br />
+    -<mark>hihhlighted text</mark> <br />
+    -<del>deleted text</del> <br />
+    -(a+b)<sup>2</sup> <br />
+    -H<sub>2</sub>o
+11.Enitty -examlpe websit: https://symbl.cc/en/unicode-table/ 
+12. List
+- ordered list, unordered, definition, nested
+13. Link
+- absolut link vs relative link
+- a tag, attributes: href, terget, title
+14. Image
+15. Table
+16. Form
+17. Deploy
