@@ -1,4 +1,5 @@
 # HTML Learning
+## Basic HTML
 
 1. How website works?
 - Client-server model
@@ -47,3 +48,12 @@
 15. Table
 16. Form
 17. Deploy
+
+## Intermediate HTML
+
+- Meta tag & SEO
+- adding font-awesome icons and google font
+- advance table
+- form date send to your main (https://formspree.io/)
+- multimedia
+- html5 element (https://www.tutorialrepublic.com/html-reference/html5-tags.php)

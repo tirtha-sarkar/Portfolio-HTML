@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Tirtha sarkar" />
+    <meta name = "keywords" content="Portfolio,html,tirtha sarkar" />
+    <meta name="description" content="Tirtha babu sarkar" />
     <title>My Portfolio</title>
-    
+    <!--font awesome.cdn-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Google font link-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background-color:bisque;
+            font-family: "Moderustic", sans-serif;
+        }
+    </style>
+
 </head>
 <body>
     <!--Section: navber  -->
@@ -26,9 +45,8 @@
         
     </nav>
       
-
-
-    <!--Section: Intro -->
+    <main>
+        <!--Section: Intro -->
     <header id="intro">
         <h1>Tirtha Babu Sarkar</h1>
         <p><em>Computer science and Engineering</em> </p>
@@ -95,16 +113,35 @@
         <tbody>
         <tr>
         <td>C</td>
-        <td>Intermediated</td> 
+        <td rowspan="2">Intermediated</td> 
         </tr>  
         <tr>
             <td>HTML</td>
-            <td>Lernning</td>
+            
+        </tr>
+        <tr>
+            <td>C++</td>
+            <td>Learning</td>
         </tr>
 
         </tbody>
     </table>
-
+    <h3>Skill Progress
+    </h3>
+    <div>
+        <div>
+            <label for="htmlprogress">HTML: </label>
+        <progress id="htmlprogress" value="70" max="100">70</progress>
+        </div>
+        <div><label for="htmlprogress">C: </label>
+            <progress id="htmlprogress" value="90" max="100">90</progress></div>
+    
+    </div>
+    <div>
+        <h3>Experience Level</h3>
+        <lavel for="experiencelavel">Experience</lavel>
+        <meter id="experiencelavel" min="0" max="10" value="5">6 Month</meter>
+    </div>
     </section>
 
     <!--Section: Project -->
@@ -114,21 +151,56 @@
           <li><a target="_blank" href="https://github.com/tirtha-sarkar/Portfolio-HTML">Portfolio website</a></li>
           <li>Blog Website</li>
         </ol>
+    </section>
+
+    <video ,width="100" height="300" controls>
+        <source src="./Assets/04 tik.mp4" type="video/mp4" />
+    </video>
+
 
         <!--Section: Contact-->
      <section id="contact">
         <h2>Contact</h2>
 
-        <form>
+        <form
+        action="https://formspree.io/f/mzzpwrrl"
+        method="POST">
             <div>
                 <label for="name">Name : </label> 
                 <input type="text" id="name" name="name" required/>
             </div><br />
            
+            
             <div>
                 <label for="email">Email : </label> 
-                <input type="email" id="email" name="eamil" required/>
+                <input type="email" id="email" name="email"  required />
             </div> <br />
+
+            <div>
+                <label for="Age">Age : </label> 
+                <input type="number" id="Age" name="Age" min="18" max="60" required/>
+            </div> <br />
+
+            <div>
+                <label for="website" >Website</label>
+                <input type="url" id="website" name="website" pattern="http?://.+" />
+            </div> <br />
+
+            <div>
+                <label for="image" >Upload Images</label>
+                <input type="image" id="image" name="image" accept="image/*" />
+            </div> <br />
+
+            <div>
+                <label for="subject">Subject</label>
+                <select name="subject" id="subject">
+                    <option value="Inquiry" >Inquiry</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="JOb">Opportunity</option>
+                </select>
+            </div> <br /> 
+
+
             <div>
                 <label for="message">Message : </label> 
                 <textarea name="message" id="message" name="message" col="30" row="10" textarea> </textarea> 
@@ -145,15 +217,34 @@
 
      </section>
 
-    </section>
 
-    <!--Section: footer -->
+    </main>
+
+    
+    <!--footer -->
     <footer>
         <p>Copyright reserved  by &copy; Tirtha Sarkar</p>
         <p>Developed with &hearts; </p>
         <a href="tel:01717035801">Call me</a>
         <a href="mailto:tirthabausarkar10">Email me</a>
         <a href="https://www.linkedin.com/in/tirtha-babu-sarkar-b3ba58316/">linkedin</a>
+    <div>
+        <h3>Follow me</h3>
+    <ul>
+
+        <li>
+            <a href="https://www.facebook.com/thirtho.sarkar.5?mibextid=ZbWKwL" target="_blank" ><i class="fa-brands fa-facebook"></i> Facebook</a>
+        </li>
+    <li>
+        <a href="https://www.linkedin.com/in/tirtha-babu-sarkar-b3ba58316/" target="_blank"><i class="fa-brands fa-linkedin"></i> linkedin</a>
+    </li> 
+
+    </ul>
+    </div>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57405.93882021181!2d88.80781065404791!3d25.93945437332156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e359358ddd831f%3A0xfbb7a3268c4659b6!2sNilphamari!5e0!3m2!1sen!2sbd!4v1725433585714!5m2!1sen!2sbd" title="Home Address" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
     </footer>
     
 
