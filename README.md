@@ -6,7 +6,7 @@ This portfolio showcases my personal information, education, skills, projects, e
 
 ## 🔗 Live Project
 
-👉 [**View Website**](https://tirtha-sarkar.github.io/Portfolio-HTML/)
+👉 [**View Website**](https://tirtha-sarkar.github.io/Personal-Portfolio-Website-Using-HTML/)
 
 ## ✨ Features
 
